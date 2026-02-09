@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Mock Database & Runtime Data
+data/refresh.json
+data/audit.json
+# data/users.json  <-- Mantido no git para garantir o usuário admin padrão (demo)
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS misc
+.DS_Store
+Thumbs.db
